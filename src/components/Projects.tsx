@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Code, Database, Smartphone } from 'lucide-react';
+import { Github, Code, Smartphone } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const projects = [
