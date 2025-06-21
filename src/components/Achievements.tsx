@@ -10,7 +10,7 @@ const Achievements: React.FC = () => {
       description: "Recognized for outstanding performance and continuous contributions to AMS Digital L2 Support",
       year: "2022",
       category: "Professional Excellence",
-      image: "/public/WhatsApp Image 2025-06-19 at 4.38.14 PM.jpeg"
+      image: "/WhatsApp Image 2025-06-19 at 4.38.14 PM.jpeg"
     },
     {
       icon: <Trophy size={32} />,
@@ -18,7 +18,7 @@ const Achievements: React.FC = () => {
       description: "Secured 2nd position in analytics case competition hosted by Symbiosis Centre for Management Studies, Bengaluru",
       year: "2025",
       category: "Academic Achievement",
-      image: "/public/WhatsApp Image 2025-06-19 at 4.38.13 PM.jpeg"
+      image: "/WhatsApp Image 2025-06-19 at 4.38.13 PM.jpeg"
     },
     {
       icon: <Star size={32} />,
@@ -26,7 +26,7 @@ const Achievements: React.FC = () => {
       description: "Achieved 1st position in IoT Projects event at the 7th Annual Inter-Collegiate Computer Science Festival",
       year: "2020",
       category: "Technical Excellence",
-      image: "/public/WhatsApp Image 2025-06-19 at 4.38.13 PM (1).jpeg"
+      image: "/WhatsApp Image 2025-06-19 at 4.38.13 PM (1).jpeg"
     },
     {
       icon: <Users size={32} />,
@@ -34,7 +34,7 @@ const Achievements: React.FC = () => {
       description: "Led team to secure 1st Runner Up position in technical competition, demonstrating leadership and technical skills",
       year: "2020",
       category: "Team Leadership",
-      image: "/public/WhatsApp Image 2025-06-19 at 4.34.40 PM (1).jpeg"
+      image: "/WhatsApp Image 2025-06-19 at 4.34.40 PM (1).jpeg"
     },
     {
       icon: <Zap size={32} />,
@@ -42,7 +42,7 @@ const Achievements: React.FC = () => {
       description: "Recognized for outstanding performance and continuous contributions to AMS Digital Support operations",
       year: "2022",
       category: "Professional Recognition",
-      image: "/public/WhatsApp Image 2025-06-19 at 4.38.14 PM.jpeg"
+      image: "/WhatsApp Image 2025-06-19 at 4.38.14 PM.jpeg"
     },
     {
       icon: <Zap size={32} />,
@@ -50,7 +50,7 @@ const Achievements: React.FC = () => {
       description: "Cleared first round of National Level technical research competition",
       year: "2020",
       category: "Academic Achievement",
-      image: "/public/BSCIT_Inter_College_Project_certificate.jpg"
+      image: "/BSCIT_Inter_College_Project_certificate.jpg"
     }
   ];
 

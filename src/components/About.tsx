@@ -43,7 +43,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto rounded-full overflow-hidden shadow-2xl">
                   <img 
-                    src="/public/Profile.jpeg" 
+                    src="/Profile.jpeg" 
                     alt="Gauri Nagre - Professional Profile"
                     className="w-full h-full object-cover"
                   />

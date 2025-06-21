@@ -84,42 +84,42 @@ const Skills: React.FC = () => {
       name: "Machine Learning Masters",
       issuer: "iNeuron.ai",
       date: "June 2020 - Feb 2021",
-      image: "/public/Machine Learning certificate .jpg",
+      image: "/Machine Learning certificate .jpg",
       link: "https://drive.google.com/file/d/1wOWH0gpYmEcWit3ez8hFbiFTox3RsUBu/view?usp=drive_link"
     },
     {
       name: "Statistics for Data Science",
       issuer: "iNeuron.ai",
       date: "June 2020 - July 2020",
-      image: "/public/Statistics_certificate.jpg",
+      image: "/Statistics_certificate.jpg",
       link: "https://drive.google.com/file/d/1BMjJqalS-MAL5S9GG4-o4sq7D5YjQgeB/view?usp=drive_link"
     },
     {
       name: "Tableau Data Analyst",
       issuer: "LinkedIn Learning",
       date: "June 2025",
-      image: "/public/Tableau Certified Data Analyst_page-0001.jpg",
+      image: "/Tableau Certified Data Analyst_page-0001.jpg",
       link: "https://drive.google.com/file/d/1mXn2F9xAb3OVwt-fgoNwPnBFsm9UmlKQ/view?usp=drive_link"
     },
     {
       name: "Visualizing Data with Microsoft Power BI",
       issuer: "iNeuron.ai",
       date: "April 2020 - May 2020",
-      image: "/public/Power BI certificate .jpg",
+      image: "/Power BI certificate .jpg",
       link: "https://drive.google.com/file/d/1peYKO7-ZUe2i0wf5WlBwo6k93p6pmrVD/view?usp=drive_link"
     },
     {
       name: "Python Programming",
       issuer: "Microsoft",
       date: "March 2019 - April 2019",
-      image: "/public/Microsoft_Python.jpg",
+      image: "/Microsoft_Python.jpg",
       link: "https://drive.google.com/file/d/1Gx7tXWfdgdV8sS9HKyK9XM3qkhLM-UuT/view?usp=drive_link"
     },
     {
       name: "Excel Forumulas and Functions",
       issuer: "LinkedIn Learning",
       date: "August 2024",
-      image: "/public/Excel Formulas and Functions Certificate_page-0001.jpg",
+      image: "/Excel Formulas and Functions Certificate_page-0001.jpg",
       link: "https://drive.google.com/file/d/1mCz0yJhR8FiPWGVQtpA8SIzxiWBowJHH/view?usp=drive_link"
     }
   ];
