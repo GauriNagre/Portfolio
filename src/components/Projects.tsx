@@ -20,6 +20,21 @@ const Projects: React.FC = () => {
       github: "https://github.com/GauriNagre/EZYML"
     },
     {
+      title: "Hospital Analytics Project",
+      description: "Performed in-depth analysis of hospital patient data to uncover trends in admissions, discharge, and patient satisfaction. Designed and executed a complete data pipeline from cleaning to visualization.",
+      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
+      category: "Data Analysis",
+      icon: <Code size={24} />,
+      features: [
+        "Exploratory data analysis (EDA) on patient admission and discharge trends",
+        "Identification of key metrics influencing patient satisfaction",
+        "Visual storytelling using heatmaps, bar charts, and trend lines",
+        "Generated actionable insights for hospital management improvements"
+      ],
+      demo: "#",
+      github: "https://github.com/GauriNagre/Hospital_Analytics_Project"
+    },
+    {
       title: "Smart Sewage Cleaning System",
       description: "Designed an IoT-based solution using embedded sensors to detect rising sewage levels in manholes and alert cleaners via a mobile app, triggering automated cleaning trucks for immediate action.",
       technologies: ["Arduino", "Embedded C", "IoT Sensors", "Android App", "Firebase"],
@@ -100,7 +115,6 @@ const Projects: React.FC = () => {
                         </span>
                       </div>
                     </div>
-                    
                     <div className="flex space-x-2">
                       <motion.a
                         href={project.github}

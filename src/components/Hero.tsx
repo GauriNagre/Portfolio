@@ -47,6 +47,7 @@ const Hero: React.FC = () => {
               Business and data analytics professional with hands-on experience in data science, passionate about leveraging data to drive strategic decisions. Enthusiastic about DevOps practices and integrating analytics with modern automation and cloud technologies.
             </motion.p>
 
+            {/* Enhanced Buttons */}
             <motion.div
               className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
               initial={{ opacity: 0, y: 20 }}
@@ -55,25 +56,26 @@ const Hero: React.FC = () => {
             >
               <motion.button
                 onClick={scrollToAbout}
-                className="bg-primary-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-primary-700 transition-colors duration-200 shadow-lg"
-                whileHover={{ scale: 1.05, y: -2 }}
+                className="bg-gradient-to-r from-primary-500 to-primary-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                whileHover={{ scale: 1.06, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                transition={{ type: "spring", stiffness: 400, damping: 18 }}
               >
                 Learn More About Me
               </motion.button>
-              
+
               <motion.a
                 href="#contact"
-                className="border-2 border-primary-600 text-primary-600 px-8 py-3 rounded-full font-semibold hover:bg-primary-600 hover:text-white transition-all duration-200"
-                whileHover={{ scale: 1.05, y: -2 }}
+                className="border-2 border-primary-600 text-primary-600 px-8 py-3 rounded-full font-semibold bg-white hover:bg-primary-600 hover:text-white shadow-md hover:shadow-xl transition-all duration-300"
+                whileHover={{ scale: 1.06, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                transition={{ type: "spring", stiffness: 400, damping: 18 }}
               >
                 Get In Touch
               </motion.a>
             </motion.div>
 
+            {/* Social Icons */}
             <motion.div
               className="flex justify-center space-x-6 mb-12"
               initial={{ opacity: 0, y: 20 }}
@@ -109,22 +111,23 @@ const Hero: React.FC = () => {
                 <Mail size={24} />
               </motion.a>
             </motion.div>
-          </motion.div>
 
-          <motion.div
-            className="flex justify-center"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.2 }}
-          >
-            <motion.button
-              onClick={scrollToAbout}
-              className="text-gray-400 hover:text-primary-600 transition-colors duration-200"
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            {/* Scroll Down Arrow */}
+            <motion.div
+              className="flex justify-center"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 1.2 }}
             >
-              <ArrowDown size={32} />
-            </motion.button>
+              <motion.button
+                onClick={scrollToAbout}
+                className="text-gray-400 hover:text-primary-600 transition-colors duration-200"
+                animate={{ y: [0, 10, 0] }}
+                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <ArrowDown size={32} />
+              </motion.button>
+            </motion.div>
           </motion.div>
         </div>
       </div>
